@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}Actor {% endblock %}
+
+{% block content %}
+<h2>{{ actor.name }}</h2>
+<a href="{{ actor.person_link}}">Wikipedia</a>
+{% endblock %}
